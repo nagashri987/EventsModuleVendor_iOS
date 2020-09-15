@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-Regular.ttf">
+            <string>Ubuntu-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="myServicesCell" customModule="ParentcraftService" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="216" height="141"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="216" height="141"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mnc-QW-S0z">
+                        <rect key="frame" x="0.0" y="0.0" width="216" height="141"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu-bg-blue " translatesAutoresizingMaskIntoConstraints="NO" id="vPw-Pa-FD8">
+                                <rect key="frame" x="0.0" y="0.0" width="216" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u8j-Jr-7hY">
+                                <rect key="frame" x="169" y="89" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="JXN-Ci-15X"/>
+                                    <constraint firstAttribute="width" constant="35" id="qln-RC-Ysy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ks-7Y-JOy">
+                                <rect key="frame" x="10" y="62" width="135" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myservices-plus-icon" translatesAutoresizingMaskIntoConstraints="NO" id="9d8-Rk-Otx">
+                                <rect key="frame" x="181" y="10" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="B1K-nS-F9b"/>
+                                    <constraint firstAttribute="width" constant="20" id="aed-Pj-bLJ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vPw-Pa-FD8" firstAttribute="top" secondItem="Mnc-QW-S0z" secondAttribute="top" id="6I3-cq-x0y"/>
+                            <constraint firstAttribute="bottom" secondItem="u8j-Jr-7hY" secondAttribute="bottom" constant="17" id="K11-aU-JEk"/>
+                            <constraint firstAttribute="trailing" secondItem="vPw-Pa-FD8" secondAttribute="trailing" id="NWa-2B-u84"/>
+                            <constraint firstItem="9d8-Rk-Otx" firstAttribute="top" secondItem="Mnc-QW-S0z" secondAttribute="top" constant="10" id="TOq-yW-4Zo"/>
+                            <constraint firstAttribute="trailing" secondItem="9d8-Rk-Otx" secondAttribute="trailing" constant="15" id="TYd-ux-oYK"/>
+                            <constraint firstItem="u8j-Jr-7hY" firstAttribute="leading" secondItem="5ks-7Y-JOy" secondAttribute="trailing" constant="24" id="U8f-MW-cdh"/>
+                            <constraint firstItem="vPw-Pa-FD8" firstAttribute="leading" secondItem="Mnc-QW-S0z" secondAttribute="leading" id="ZYa-a0-lop"/>
+                            <constraint firstAttribute="bottom" secondItem="vPw-Pa-FD8" secondAttribute="bottom" id="aBK-qI-TiK"/>
+                            <constraint firstItem="5ks-7Y-JOy" firstAttribute="centerY" secondItem="vPw-Pa-FD8" secondAttribute="centerY" id="cOb-on-7yC"/>
+                            <constraint firstItem="5ks-7Y-JOy" firstAttribute="leading" secondItem="Mnc-QW-S0z" secondAttribute="leading" constant="10" id="skn-VZ-O8n"/>
+                            <constraint firstAttribute="trailing" secondItem="u8j-Jr-7hY" secondAttribute="trailing" constant="12" id="uTk-xe-lJh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Mnc-QW-S0z" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0iB-ac-8Vt"/>
+                <constraint firstAttribute="bottom" secondItem="Mnc-QW-S0z" secondAttribute="bottom" id="27P-yG-7Ld"/>
+                <constraint firstAttribute="trailing" secondItem="Mnc-QW-S0z" secondAttribute="trailing" id="KE1-kR-dPR"/>
+                <constraint firstItem="Mnc-QW-S0z" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pHE-gD-tGn"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="216" height="141"/>
+            <connections>
+                <outlet property="addImage" destination="9d8-Rk-Otx" id="Ll9-By-wJa"/>
+                <outlet property="backgroundImage" destination="vPw-Pa-FD8" id="4oE-vN-3OD"/>
+                <outlet property="listLabel" destination="5ks-7Y-JOy" id="qCa-lI-1JZ"/>
+                <outlet property="listView" destination="Mnc-QW-S0z" id="3Zz-Br-wHn"/>
+                <outlet property="sevicesImage" destination="u8j-Jr-7hY" id="TPr-xY-2Al"/>
+            </connections>
+            <point key="canvasLocation" x="184" y="192.05397301349328"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="menu-bg-blue " width="250" height="147"/>
+        <image name="myservices-plus-icon" width="789" height="790"/>
+    </resources>
+</document>

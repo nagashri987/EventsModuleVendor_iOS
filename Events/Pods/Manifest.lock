@@ -1,0 +1,38 @@
+PODS:
+  - ACFloatingTextfield (0.1.0)
+  - Alamofire (5.0.2)
+  - IQKeyboardManagerSwift (6.5.6)
+  - SDWebImage (5.5.2):
+    - SDWebImage/Core (= 5.5.2)
+  - SDWebImage/Core (5.5.2)
+  - SVProgressHUD (2.2.5)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - ACFloatingTextfield
+  - Alamofire (= 5.0.2)
+  - IQKeyboardManagerSwift
+  - SDWebImage
+  - SVProgressHUD
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - ACFloatingTextfield
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - SDWebImage
+    - SVProgressHUD
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  ACFloatingTextfield: 03c7737f60d6fc606a735599de0a5112adbc79fe
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 7a62125f0224ec2e0a069dc099561ef86c2f501c
+
+COCOAPODS: 1.10.0.beta.2
